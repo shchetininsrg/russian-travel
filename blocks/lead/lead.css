@@ -1,0 +1,8 @@
+.lead {
+    display: flex;
+    width: calc(100% - 2 * 148px);
+    flex-direction: column;
+}
+
+
+

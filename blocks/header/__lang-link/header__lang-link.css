@@ -1,0 +1,9 @@
+.header__lang-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__lang-link:first-of-type {
+    margin-right: 18px;
+}
