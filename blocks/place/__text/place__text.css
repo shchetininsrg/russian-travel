@@ -7,3 +7,26 @@
     max-width: 484px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__text {
+        max-width: 456px;
+        font-size: 18px;
+        line-height: 1.63;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 1.63;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.63;
+    }
+}

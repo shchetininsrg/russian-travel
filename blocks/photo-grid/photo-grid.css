@@ -1,6 +1,27 @@
 .photo-grid {
     width: calc(100% - 2 * 48px);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        max-width: calc(100% - 2 * 48px);
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        max-width: calc(100% - 2 * 24px);
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: calc(100% - 2 * 16px);
+        gap: 12px;
+    }
 }

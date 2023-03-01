@@ -1,8 +1,25 @@
 .lead {
     display: flex;
-    width: calc(100% - 2 * 148px);
+    max-width: calc(100% - 2 * 148px);
     flex-direction: column;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 2 * 48px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100%;
+    }
+}
 
 
