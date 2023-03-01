@@ -1,0 +1,7 @@
+.page__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}

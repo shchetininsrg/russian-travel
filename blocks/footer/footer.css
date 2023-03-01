@@ -1,0 +1,3 @@
+.footer {
+    max-width: calc(100% - 2 * 48px);
+}
