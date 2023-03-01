@@ -1,0 +1,31 @@
+.cover__background {
+    min-height: 740px;
+    text-decoration: none;
+    background-image: url(../../../images/__background.jpg);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cover__background::before {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    transition: opacity 0.5s ease-in;
+}
+
+.cover__background:hover::before {
+    opacity: 0.8;
+}
