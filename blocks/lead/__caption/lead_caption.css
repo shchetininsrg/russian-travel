@@ -9,3 +9,25 @@
     padding: 0;
     margin-top: 8px;
 }
+
+@media screen and (max-width: 1279px) {
+    .lead__caption {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        font-size: 10px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        font-size: 10px;
+        line-height: 1.4;
+        margin-top: 0;
+        margin-left: 16px;
+    }
+}

@@ -1,4 +1,22 @@
 .content__places {
     display: flex;
-    margin: 0 auto 90px auto;
+    margin: 0 auto 92px auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .content__places {
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .content__places {
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content__places {
+        margin-bottom: 66px;
+    }
 }

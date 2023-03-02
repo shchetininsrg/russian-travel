@@ -3,3 +3,21 @@
     flex-direction: column;
     max-width: calc(100% - 2 * 48px);
 }
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        max-width: 100%;
+    }
+}
