@@ -2,4 +2,7 @@
     .footer__list {
         margin-bottom: 32px;
     }
+    .footer__list:last-child {
+        margin-bottom: 0;
+    }
 }
