@@ -7,18 +7,13 @@
     letter-spacing: 2px;
     margin-top: 0;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 1279px) {
-    .place__url-heading {
-        max-width: 456px;
-    }
-}
 
 @media screen and (max-width: 1023px) {
     .place__url-heading {
         max-width: 352px;
-        font-size: 12px;
         line-height: 1;
     }
 }
@@ -26,8 +21,6 @@
 @media screen and (max-width: 767px) {
     .place__url-heading {
         max-width: 288px;
-        font-size: 12px;
-        line-height: 1;
         margin-left: 16px;
         margin-bottom: 12px;
     }

@@ -4,12 +4,6 @@
     margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1279px) {
-    .content__cover {
-        margin-bottom: 92px;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .content__cover {
         margin-bottom: 88px;

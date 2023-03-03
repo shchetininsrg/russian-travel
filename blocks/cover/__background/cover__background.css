@@ -10,7 +10,7 @@
     background-size: cover;
     justify-content: center;
     align-items: center;
-    
+    background-position: center;
 }
 
 .cover__background::before {

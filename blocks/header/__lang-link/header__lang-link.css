@@ -4,24 +4,16 @@
     line-height: 1.17;
     text-decoration: none;
     color: white;
-}
-
-.header__lang-link:first-of-type {
     margin-right: 18px;
+    transition: opacity 0.3s ease-in;
 }
 
-@media screen and (max-width: 1279px) {
-    .header__lang-link  {
-        font-size: 24px;
-        line-height: 1.17;
-    }
+.header__lang-link:hover {
+    opacity: .8;
 }
 
-@media screen and (max-width: 1023px) {
-    .header__lang-link  {
-        font-size: 24px;
-        line-height: 1.17;
-    }
+.header__lang-link:last-of-type{
+    margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -30,3 +22,5 @@
         line-height: 1.11;
     }
 }
+
+
