@@ -4,3 +4,5 @@
 
 Использованы технологии display grid и display flex
 Адаптирован под разные разрешения
+
+Ссылка на GP - https://shchetininsrg.github.io/russian-travel/
