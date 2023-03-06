@@ -10,6 +10,7 @@
 @media screen and (max-width: 767px) {
     .footer__list {
         margin-bottom: 32px;
+        max-width: fit-content;
     }
     .footer__list:last-child {
         margin-bottom: 0;

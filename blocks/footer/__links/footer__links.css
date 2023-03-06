@@ -9,5 +9,6 @@
     .footer__links {
         flex-direction: column;
         margin-left: 16px;
+        max-width: fit-content;
     }
 }

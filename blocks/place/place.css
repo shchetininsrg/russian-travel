@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 767px) {
     .place {
-        grid-template-columns: repeat(3200px, 1fr);
+        grid-template-columns: repeat(320px, 1fr);
         grid-template-areas: 'title' 
         'url'
         'img' 
